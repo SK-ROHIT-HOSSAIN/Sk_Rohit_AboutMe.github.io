@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("../image/background_pic.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.H1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fcba03;
+}
+
+img {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px, solid #bef4f7;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fcba03;
+}
+
+.H5 {
+    margin-top: 10px;
+    font-size: 0.4cm;
+    color: #ffff;
+}
+
+.pa {
+    margin-top: 20px;
+    color: aquamarine;
+}
+
+.myName {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #ADD8E6;
+}
+
+.ch {
+    color: #AA336A;
+}
+
+.btn-con {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.main-btn {
+    border-radius: 30px;
+    margin-top: 60px;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid #AA336A;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.main-btn .btn-icon {
+    background-color: #FFB6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.main-btn .btn-text {
+    padding: 0 2rem;
+    color: #ffff;
+}
+
+.contact-icon {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.contact-icon a {
+    display: flex;
+    align-items: center;
+    color: #454545;
+    background-color: #FFB6C1;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+}
+
+.contact-icon a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
